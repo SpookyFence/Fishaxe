@@ -1,0 +1,51 @@
+Symbol range map extraction starting
+Processing 1 files
+startProcessing "com\SilverBranch\Fishaxe\Fishaxe.java" md5: 080f20b55c64a6f9b796aacc52dac00d
+@|com\SilverBranch\Fishaxe\Fishaxe.java|8|32|com.SilverBranch.Fishaxe|package|com.SilverBranch.Fishaxe|(file)
+Class Start: com.SilverBranch.Fishaxe.Fishaxe
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|345|348|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|349|354|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|357|364|Fishaxe|class|com.SilverBranch.Fishaxe.Fishaxe
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|365|370|MODID|field|com.SilverBranch.Fishaxe.Fishaxe|MODID
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|372|376|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|379|386|Fishaxe|class|com.SilverBranch.Fishaxe.Fishaxe
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|387|391|NAME|field|com.SilverBranch.Fishaxe.Fishaxe|NAME
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|393|400|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|403|410|Fishaxe|class|com.SilverBranch.Fishaxe.Fishaxe
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|411|418|VERSION|field|com.SilverBranch.Fishaxe.Fishaxe|VERSION
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|433|440|Fishaxe|class|com.SilverBranch.Fishaxe.Fishaxe
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|467|473|String|class|java.lang.String
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|467|473|String|class|java.lang.String
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|474|479|MODID|field|com.SilverBranch.Fishaxe.Fishaxe|MODID|
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|517|523|String|class|java.lang.String
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|517|523|String|class|java.lang.String
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|524|528|NAME|field|com.SilverBranch.Fishaxe.Fishaxe|NAME|
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|566|572|String|class|java.lang.String
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|566|572|String|class|java.lang.String
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|573|580|VERSION|field|com.SilverBranch.Fishaxe.Fishaxe|VERSION|
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|610|616|Logger|class|org.apache.logging.log4j.Logger
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|610|616|Logger|class|org.apache.logging.log4j.Logger
+   @|com\SilverBranch\Fishaxe\Fishaxe.java|617|623|logger|field|com.SilverBranch.Fishaxe.Fishaxe|logger|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|694|699|event|param|com.SilverBranch.Fishaxe.Fishaxe|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|631|643|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|660|667|preInit|method|com.SilverBranch.Fishaxe.Fishaxe|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|668|693|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|715|721|logger|field|com.SilverBranch.Fishaxe.Fishaxe|logger
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|724|729|event|param|com.SilverBranch.Fishaxe.Fishaxe|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|730|739|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|812|817|event|param|com.SilverBranch.Fishaxe.Fishaxe|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|755|767|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|784|788|init|method|com.SilverBranch.Fishaxe.Fishaxe|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|789|811|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|862|868|logger|field|com.SilverBranch.Fishaxe.Fishaxe|logger
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|869|873|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|894|900|Blocks|class|net.minecraft.init.Blocks
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|901|905|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|com\SilverBranch\Fishaxe\Fishaxe.java|906|921|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.SilverBranch.Fishaxe.Fishaxe
+endProcessing "com\SilverBranch\Fishaxe\Fishaxe.java"
+

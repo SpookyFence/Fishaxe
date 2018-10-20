@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fishaxe",
+  "name": "Fishaxe",
+  "description": "Fishaxe best Axe",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["SilverBranch"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
