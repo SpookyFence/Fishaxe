@@ -1,6 +1,8 @@
 package com.SilverBranch.Fishaxe.proxy;
 
 import com.SilverBranch.Fishaxe.Config;
+import com.SilverBranch.Fishaxe.Items.ItemFishaxe;
+import com.SilverBranch.Fishaxe.Items.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.config.Configuration;
@@ -42,6 +44,7 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
+        event.getRegistry().register(new ItemFishaxe(ModItems.fish));
     }
 }
 

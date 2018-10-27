@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -49,9 +49,9 @@ attackIndicator:1
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 narrator:0
-tutorialStep:movement
+tutorialStep:find_tree
 key_key.attack:-100
 key_key.use:-99
 key_key.forward:17
