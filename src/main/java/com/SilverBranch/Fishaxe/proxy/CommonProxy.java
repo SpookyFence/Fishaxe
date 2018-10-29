@@ -2,7 +2,7 @@ package com.SilverBranch.Fishaxe.proxy;
 
 import com.SilverBranch.Fishaxe.Config;
 import com.SilverBranch.Fishaxe.Items.ItemFishaxe;
-import com.SilverBranch.Fishaxe.Items.ModItems;
+import com.SilverBranch.Fishaxe.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.config.Configuration;
@@ -15,8 +15,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 
 import java.io.File;
-
-import static com.SilverBranch.Fishaxe.Config.readConfig;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
@@ -37,14 +35,10 @@ public class CommonProxy {
             config.save();
         }
     }
-
-    @SubscribeEvent
-    public static void registerBlocks(RegistryEvent.Register<Block> event) {
-    }
-
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().register(new ItemFishaxe(ModItems.fish));
     }
+
+    public void registerItemRenderer(Item item, int meta, String id){}
 }
 

@@ -1,7 +1,6 @@
 package com.SilverBranch.Fishaxe;
 
 import com.SilverBranch.Fishaxe.proxy.CommonProxy;
-import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -17,11 +16,11 @@ public class Fishaxe
     public static final String NAME = "Fishaxe";
     public static final String VERSION = "1.0";
 
-    @SidedProxy(clientSide = "com.SilverBranch.Fishaxe.proxy.ClientProxy", serverSide = "com.SilverBranch.Fishaxe.proxy.ServerProxy")
-    public static CommonProxy proxy;
-
     @Mod.Instance
     public static Fishaxe instance;
+
+    @SidedProxy(clientSide = "com.SilverBranch.Fishaxe.proxy.ClientProxy", serverSide = "com.SilverBranch.Fishaxe.proxy.ServerProxy")
+    public static CommonProxy proxy;
 
     public static Logger logger;
 
