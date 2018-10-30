@@ -18,7 +18,7 @@ renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
-lang:de_de
+lang:en_us
 chatVisibility:0
 chatColors:true
 chatLinks:true
