@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "itemfishaxe:items/itemfishaxe"
+		"layer0": "fishaxe:items/itemfishaxe"
 	}
 }

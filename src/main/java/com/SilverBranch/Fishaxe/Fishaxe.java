@@ -36,6 +36,7 @@ public class Fishaxe
     {
         proxy.init(e);
     }
+
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent e)
     {
