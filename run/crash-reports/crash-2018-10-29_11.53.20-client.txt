@@ -4,7 +4,7 @@
 Time: 10/29/18 11:53 AM
 Description: Initializing game
 
-java.lang.IllegalStateException: The ObjectHolder annotation cannot apply to a field that does not map to a registry. Ensure the registry was created during the RegistryEvent.NewRegistry event. (found : com.SilverBranch.Fishaxe.Items.ItemFishaxe at java.lang.reflect.Field.fishaxe)
+java.lang.IllegalStateException: The ObjectHolder annotation cannot apply to a field that does not map to a registry. Ensure the registry was created during the RegistryEvent.NewRegistry event. (found : com.SilverBranch.Fishaxe.Items.ToolPickaxe at java.lang.reflect.Field.fishaxe)
 	at net.minecraftforge.registries.ObjectHolderRef.<init>(ObjectHolderRef.java:85)
 	at net.minecraftforge.registries.ObjectHolderRegistry.scanTarget(ObjectHolderRegistry.java:132)
 	at net.minecraftforge.registries.ObjectHolderRegistry.findObjectHolders(ObjectHolderRegistry.java:80)
